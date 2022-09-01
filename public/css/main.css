@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    font-family: "Noto Sans"
+    user-select: none;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #e7d2bd;
+    height: 100%;
+    width: 100%;
+}
+
+.error-alert {
+    position: relative;
+    background-color: red;
+    width: 100%;
+    min-height: 25px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white
+}
+
+.join-create-menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
