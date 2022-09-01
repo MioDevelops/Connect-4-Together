@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 * {
-    font-family: "Noto Sans"
+    font-family: "Noto Sans";
     user-select: none;
     font-size: 21px;
     text-transform: uppercase;
@@ -28,5 +29,16 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-title {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+}
+
+.centered-horiz {
+    position: absolute;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
